@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  app:
+    # Build the image using the Dockerfile in the current directory
+    build: .
+    ports:
+      # Map port 5173 on your local machine to port 5173 in the container
+      - "5173:5173"
+    volumes:
+      # Mount the 'src' directory into the container for hot-reloading
+      - ./src:/app/src
+    env_file:
+      # Load environment variables from the .env file
+      - .env

@@ -1,0 +1,9 @@
+/* Import Tailwind's base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set the base font for the entire application */
+body {
+  font-family: 'Inter', sans-serif;
+}
