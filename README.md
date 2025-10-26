@@ -127,7 +127,3 @@ Then open your browser at [http://localhost:5173](http://localhost:5173).
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-See the LICENSE file for details.
